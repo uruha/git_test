@@ -104,38 +104,39 @@
 	#contact,
 	#news,
 	#profile {
-		stroke:#092951;       /*線の色*/
-    	fill:none;            /*塗りつぶしの色*/
+		stroke:#00a381;       /*線の色*/
+    	fill:#ffffff;            /*塗りつぶしの色*/
     	stroke-width:1;       /*線の太さ*/
     	stroke-dasharray: 3000; /*破線の間隔*/
     	stroke-dashoffset:3000; /*破線の開始位置*/
 		animation: DASH_02 3s ease-in alternate forwards;
-		-webkit-animation:DASH_02 3s ease-in 0s forwards;
-		-o-animation:DASH_02 3s ease-in 0s forwards;
-		animation:DASH_02 3s ease-in 0s forwards;
+		-webkit-animation:DASH_02 3s ease-in .8s forwards;
+		-o-animation:DASH_02 3s ease-in .8s forwards;
+		animation:DASH_02 3s ease-in .8s forwards;
+		-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;
 		}
 		@keyframes DASH_02{
 		0%{stroke-dashoffset:3000;fill:#ffffff;}
 		80%{stroke-dashoffset:2000;fill:#ffffff;}
-		100%{stroke-dashoffset:0;fill:#092951;}
+		100%{stroke-dashoffset:0;fill:#00a381;}
 		}
 		@-moz-keyframes DASH_02{
 		0%{stroke-dashoffset:3000;fill:#ffffff;}
 		80%{stroke-dashoffset:2000;fill:#ffffff;}
-		100%{stroke-dashoffset:0;fill:#092951;}
+		100%{stroke-dashoffset:0;fill:#00a381;}
 		}
 		@-webkit-keyframes DASH_02{
 		0%{stroke-dashoffset:3000;fill:#ffffff;}
 		80%{stroke-dashoffset:2000;fill:#ffffff;}
-		100%{stroke-dashoffset:0;fill:#092951;}
+		100%{stroke-dashoffset:0;fill:#00a381;}
 		}
 		@-o-keyframes DASH_02{
 		0%{stroke-dashoffset:3000;fill:#ffffff;}
 		80%{stroke-dashoffset:2000;fill:#ffffff;}
-		100%{stroke-dashoffset:0;fill:#092951;}
+		100%{stroke-dashoffset:0;fill:#00a381;}
 		}
 		@-ms-keyframes DASH_02{
 		0%{stroke-dashoffset:3000;fill:#ffffff;}
 		80%{stroke-dashoffset:2000;fill:#ffffff;}
-		100%{stroke-dashoffset:0;fill:#092951;}
+		100%{stroke-dashoffset:0;fill:#00a381;}
 	}
