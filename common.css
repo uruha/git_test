@@ -12,11 +12,11 @@
     	stroke-width:1;       /*線の太さ*/
     	stroke-dasharray: 3000; /*破線の間隔*/  
     	stroke-dashoffset:3000; /*破線の開始位置*/
-		-moz-animation:DASH 3s ease-in-out .5s forwards;
-		-webkit-animation:DASH 3s ease-in-out .5s forwards;
-		-o-animation:DASH 3s ease-in-out .5s forwards;
-		animation:DASH 3s ease-in-out .5s forwards;
-		-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;			
+		-moz-animation:DASH 2s ease-in-out .5s forwards;
+		-webkit-animation:DASH 2s ease-in-out .5s forwards;
+		-o-animation:DASH 2s ease-in-out .5s forwards;
+		animation:DASH 2s ease-in-out .5s forwards;
+		-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;
 		}
 		@keyframes DASH{
 		0%{stroke-dashoffset:3000;fill:#ffffff;}
